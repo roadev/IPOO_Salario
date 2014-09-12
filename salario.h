@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 11/09/14
- * Versión: 0.2.5
+ * Versión: 0.4
  * 
  * Nombre de la Clase: salario.h
  * Responsabilidad: 
@@ -15,16 +15,18 @@
 using namespace std;
 
 class Salario {
-public:
+public: //Métodos
     Salario();
     ~Salario();
-    string ingresarNombreEmpleado(string nE);
-    int ingresarZonaEmpleado(int zE);
-    double ingresarSalarioAnterior(double sA);
+    void ingresarNombreEmpleado(string nE);
+    void ingresarZonaEmpleado(int zE);
+    void ingresarSalarioAnterior(double sA);
     double getNuevoSalario();
+    string getNombreEmpleado();
+    double getZonaEmpleado();
     void calcularNuevoSalario();
     
-private:
+private: //Atributos
     double anteriorSalario;
     double nuevoSalario;
     double incremento;

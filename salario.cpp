@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 11/09/14
- * Versión: 0.2.5
+ * Versión: 0.4
  * 
  * Nombre de la Clase: salario.cpp
  * Responsabilidad: 
@@ -10,6 +10,7 @@
 
 #include <iostream>
 #include "salario.h"
+#include <string>
 using namespace std;
 
 Salario::Salario() {
@@ -19,21 +20,21 @@ Salario::Salario() {
     nombreEmpleado = "";
 }
 
-Salario::~Salario() {
-    
+Salario::~Salario() {  
 }
 
-double Salario::ingresarSalarioAnterior(double sA){
+void Salario::ingresarSalarioAnterior(double sA){
     anteriorSalario = sA;
 }
 
-string Salario::ingresarNombreEmpleado(string nE){
+void Salario::ingresarNombreEmpleado(string nE){
     nombreEmpleado = nE;
 }
 
-int Salario::ingresarZonaEmpleado(int zE){
+void Salario::ingresarZonaEmpleado(int zE){
+    
     zE = zonaEmpleado;
-    switch (zonaEmpleado)
+    switch (zE)
     {
     case 1: 
         cout<<"El empleado pertenece a la zona Administrativa"<<endl;
@@ -49,6 +50,14 @@ int Salario::ingresarZonaEmpleado(int zE){
 
 void Salario::calcularNuevoSalario(){
     nuevoSalario = anteriorSalario * incremento;
+}
+
+string Salario::getNombreEmpleado(){
+    return nombreEmpleado;
+}
+
+double Salario::getZonaEmpleado(){
+    return zonaEmpleado;
 }
 
 double Salario::getNuevoSalario(){
