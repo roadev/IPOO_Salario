@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 11/09/14
- * Versión: 0.1.1
+ * Versión: 0.2
  * 
  * Nombre de la Clase: salario.h
  * Responsabilidad: 
@@ -14,8 +14,9 @@
 using namespace std;
 
 
-int main(int argc, char** argv) {
+int main() {
 
-    return 0;
+    cout<<""<<endl;
+    
 }
 
