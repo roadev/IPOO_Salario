@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux-x86
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux-x86
-CND_ARTIFACT_NAME_Debug=salario
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/salario
+CND_ARTIFACT_NAME_Debug=ipoo_salario
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux-x86/ipoo_salario
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Debug=salario.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/salario.tar
+CND_PACKAGE_NAME_Debug=ipoosalario.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux-x86/package/ipoosalario.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux-x86
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux-x86
-CND_ARTIFACT_NAME_Release=salario
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/salario
+CND_ARTIFACT_NAME_Release=ipoo_salario
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux-x86/ipoo_salario
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux-x86/package
-CND_PACKAGE_NAME_Release=salario.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/salario.tar
+CND_PACKAGE_NAME_Release=ipoosalario.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux-x86/package/ipoosalario.tar
 #
 # include compiler specific variables
 #

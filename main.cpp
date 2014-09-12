@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 11/09/14
- * Versión: 0.2
+ * Versión: 0.2.5
  * 
  * Nombre de la Clase: salario.h
  * Responsabilidad: 
