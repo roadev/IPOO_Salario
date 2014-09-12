@@ -13,10 +13,20 @@
 #include <string>
 using namespace std;
 
+    double anteriorSalario;
+    double nuevoSalario;
+    double incremento;
+    string nombreEmpleado;
+    int zonaEmpleado;
+    
+    Salario salarioNuevo;
 
 int main() {
 
-    cout<<""<<endl;
+    cout<<"Ingrese el nombre del empleado"<<endl;
+    cin>>nombreEmpleado;
+    salarioNuevo.ingresarNombreEmpleado(nE);
+    
     
 }
 

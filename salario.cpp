@@ -23,13 +23,11 @@ Salario::~Salario() {
     
 }
 
-Salario::ingresarSalarioAnterior(double sA){
-    
+double Salario::ingresarSalarioAnterior(double sA){
     anteriorSalario = sA;
 }
 
 string Salario::ingresarNombreEmpleado(string nE){
-
     nombreEmpleado = nE;
 }
 
@@ -49,11 +47,10 @@ int Salario::ingresarZonaEmpleado(int zE){
     } 
 }
 
-
 void Salario::calcularNuevoSalario(){
     nuevoSalario = anteriorSalario * incremento;
 }
 
-void Salario::getNuevoSalario(){
+double Salario::getNuevoSalario(){
     return nuevoSalario;
 }

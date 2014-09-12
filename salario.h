@@ -21,9 +21,8 @@ public:
     string ingresarNombreEmpleado(string nE);
     int ingresarZonaEmpleado(int zE);
     double ingresarSalarioAnterior(double sA);
-    
-    void calcularNuevoSalario();
     double getNuevoSalario();
+    void calcularNuevoSalario();
     
 private:
     double anteriorSalario;
@@ -31,7 +30,6 @@ private:
     double incremento;
     string nombreEmpleado;
     int zonaEmpleado;
-    
 };
 
 #endif	/* SALARIO_H */
