@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 11/09/14
- * Versión: 0.4
+ * Versión: 1.1
  * 
  * Nombre de la Clase: salario.h
  * Responsabilidad: 
@@ -19,13 +19,13 @@ public: //Métodos
     Salario();
     ~Salario();
     void ingresarNombreEmpleado(string nE);
-    void ingresarZonaEmpleado(int zE);
+    void determinarZonaEmpleado(int zE);
     void ingresarSalarioAnterior(double sA);
     double getNuevoSalario();
     string getNombreEmpleado();
     double getZonaEmpleado();
     void calcularNuevoSalario();
-    
+       
 private: //Atributos
     double anteriorSalario;
     double nuevoSalario;

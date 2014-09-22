@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 11/09/14
- * Versión: 0.4
+ * Versión: 1.1
  * 
  * Nombre de la Clase: salario.cpp
  * Responsabilidad: 
@@ -18,6 +18,7 @@ Salario::Salario() {
     nuevoSalario = 0;
     incremento = 1.25;
     nombreEmpleado = "";
+    //zonaEmpleado = 0;
 }
 
 Salario::~Salario() {  
@@ -31,7 +32,7 @@ void Salario::ingresarNombreEmpleado(string nE){
     nombreEmpleado = nE;
 }
 
-void Salario::ingresarZonaEmpleado(int zE){
+void Salario::determinarZonaEmpleado(int zE){
     
     zE = zonaEmpleado;
     switch (zE)

@@ -1,6 +1,6 @@
 /* Autor: Hecho por Juan David Roa Valencia
  * Fecha de creación: 11/09/14
- * Versión: 0.4
+ * Versión: 1.1
  * 
  * Nombre de la Clase: salario.h
  * Responsabilidad: 
@@ -8,17 +8,15 @@
 
  */
 
-#include <iostream>
 #include "salario.h"
-#include <string>
-using namespace std;
 
-    string nombreEmpleado;
-    double nuevoSalario;
     
-    Salario salarioNuevo;
 
 int main() {
+    
+    string nombreEmpleado;
+    double nuevoSalario;
+    Salario salarioNuevo;
 
     cout<<"Ingrese el nombre del empleado"<<endl;
     cin>>nombreEmpleado;
@@ -29,14 +27,14 @@ int main() {
     cout<<"Ingrese 3 para zona de Investigación "<<endl;
     int zonaEmpleado;
     cin>>zonaEmpleado;
-    salarioNuevo.ingresarZonaEmpleado(zonaEmpleado);
+    salarioNuevo.determinarZonaEmpleado(zonaEmpleado);
     cout<<"Ingrese el salario anterior del empleado: "<<endl;
     double anteriorSalario;
     cin>>anteriorSalario;
     salarioNuevo.ingresarSalarioAnterior(anteriorSalario);
     
     salarioNuevo.calcularNuevoSalario();
-    cout<<"El nuevo salario para el empleado: "<<salarioNuevo.getNombreEmpleado()<<" de la zona: "
-            <<salarioNuevo.getZonaEmpleado()<<"es: "<<salarioNuevo.getNuevoSalario()<<endl;    
+    cout<<"El nuevo salario para el empleado: "<<salarioNuevo.getNombreEmpleado()<<", De la zona: "
+            <<salarioNuevo.getZonaEmpleado()<<" es: "<<salarioNuevo.getNuevoSalario()<<endl;    
 }
 
