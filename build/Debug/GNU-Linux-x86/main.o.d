@@ -1,3 +1,3 @@
-build/Debug/GNU-Linux-x86/main.o: main.cpp salario.h
+build/Debug/GNU-Linux-x86/main.o: main.cpp Salario.h
 
-salario.h:
+Salario.h:

@@ -1,8 +1,8 @@
-/* Autor: Hecho por Juan David Roa Valencia
+/* Autores: Hecho por Juan David Roa Valencia y Jhonatan David Vanegas
  * Fecha de creación: 11/09/14
  * Versión: 1.1
  * 
- * Nombre de la Clase: salario.h
+ * Nombre del archivo: Salario.h
  * Responsabilidad: 
  * Colaboración: 
 
@@ -23,7 +23,7 @@ public: //Métodos
     void ingresarSalarioAnterior(double sA);
     double getNuevoSalario();
     string getNombreEmpleado();
-    double getZonaEmpleado();
+    char getZonaEmpleado();
     void calcularNuevoSalario();
        
 private: //Atributos

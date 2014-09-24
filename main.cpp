@@ -1,14 +1,14 @@
-/* Autor: Hecho por Juan David Roa Valencia
+/* Autores: Hecho por Juan David Roa Valencia y Jhonatan David Vanegas
  * Fecha de creación: 11/09/14
- * Versión: 1.1
+ * Versión: 1.5
  * 
- * Nombre de la Clase: salario.h
+ * Nombre de la Clase: main.h
  * Responsabilidad: 
  * Colaboración: 
 
  */
 
-#include "salario.h"
+#include "Salario.h"
 
     
 
@@ -34,7 +34,7 @@ int main() {
     salarioNuevo.ingresarSalarioAnterior(anteriorSalario);
     
     salarioNuevo.calcularNuevoSalario();
-    cout<<"El nuevo salario para el empleado: "<<salarioNuevo.getNombreEmpleado()<<", De la zona: "
-            <<salarioNuevo.getZonaEmpleado()<<" es: "<<salarioNuevo.getNuevoSalario()<<endl;    
+    cout<<"El nuevo salario para el empleado: "<<salarioNuevo.getNombreEmpleado()<<
+            ", es: "<<salarioNuevo.getNuevoSalario()<<endl;    
 }
 

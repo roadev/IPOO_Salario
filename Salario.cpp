@@ -1,15 +1,15 @@
-/* Autor: Hecho por Juan David Roa Valencia
+/* Autores: Hecho por Juan David Roa Valencia y Jhonatan David Vanegas
  * Fecha de creación: 11/09/14
  * Versión: 1.1
  * 
- * Nombre de la Clase: salario.cpp
+ * Nombre de la Clase: Salario.cpp
  * Responsabilidad: 
  * Colaboración: 
 
  */
 
 #include <iostream>
-#include "salario.h"
+#include "Salario.h"
 #include <string>
 using namespace std;
 
@@ -18,7 +18,7 @@ Salario::Salario() {
     nuevoSalario = 0;
     incremento = 1.25;
     nombreEmpleado = "";
-    //zonaEmpleado = 0;
+    zonaEmpleado = 0;
 }
 
 Salario::~Salario() {  
@@ -33,8 +33,8 @@ void Salario::ingresarNombreEmpleado(string nE){
 }
 
 void Salario::determinarZonaEmpleado(int zE){
-    
-    zE = zonaEmpleado;
+
+    zonaEmpleado = zE;
     switch (zE)
     {
     case 1: 
@@ -57,7 +57,7 @@ string Salario::getNombreEmpleado(){
     return nombreEmpleado;
 }
 
-double Salario::getZonaEmpleado(){
+char Salario::getZonaEmpleado(){
     return zonaEmpleado;
 }
 
